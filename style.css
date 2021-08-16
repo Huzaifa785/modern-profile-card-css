@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #2d254b;
+}
+
+:root{
+    --white--color: rgba(245, 245, 245, 0.705);
+}
+
+.container{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+.card{
+    background: #28223F;
+    width: 410px;
+    padding: 1.5em;
+    text-align: center;
+    box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 0.219);
+    border-radius: 16px;
+}
+
+.pro-div{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pro{
+    text-transform: uppercase;
+    background: rgb(233, 200, 14);
+    color: #28223F;
+    padding: 8px 14px 8px 14px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.user-img{
+    border-radius: 50%;
+    width: 150px;
+    border: 2px solid rgb(5, 221, 174);
+    padding: 10px;
+}
+
+.user-name{
+    color: var(--white--color);
+    font-size: 35px;
+}
+
+.designation{
+    color: var(--white--color);
+    font-size: 20px;
+}
+
+.manage-line-height{
+    line-height: 1px;
+}
+
+.desc{
+    color: var(--white--color);
+    padding-left: 77px;
+    padding-right: 77px;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.btn-outline{
+    background: transparent;
+    color: #28223F;
+    font-size: 17px;
+    padding: 11px 45px 10px 45px;
+    border: 2px solid #03BFCB;
+    outline: none;
+    cursor: pointer;
+    color: #03BFCB;
+    margin-left: 5px;
+    transition: 0.3s;
+    border-radius: 6px;
+}
+
+.btn-outline:hover{
+    background: #03BFCB;
+    border: 2px solid #03BFCB;
+    transform: translateY(-5px);
+    color: #28223F;
+}
+
+.btn-outline{
+    background: transparent;
+    color: #28223F;
+    font-size: 17px;
+    padding: 11px 45px 10px 45px;
+    border: 2px solid #03BFCB;
+    outline: none;
+    cursor: pointer;
+    color: #03BFCB;
+    margin-left: 5px;
+    transition: 0.3s;
+}
+
+.btn-outline:hover{
+    background: #03BFCB;
+    border: 2px solid #03BFCB;
+    transform: translateY(-5px);
+    color: #28223F;
+}
+
+.skills-div{
+    text-align: left;
+    padding-top: 30px;
+    color: var(--white--color);
+}
+
+.skills{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+.skill-grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill{
+    border: 0.1px solid rgba(245, 245, 245, 0.233);
+    padding: 6px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+    color: rgba(245, 245, 245, 0.575);
+}
